@@ -1,7 +1,7 @@
+#include <cstring>
 #include <iostream>
-#include <vector>
 
-std::vector<int> dp(100, -1);
+int dp[100];
 
 int fib(int n)
 {
@@ -12,8 +12,14 @@ int fib(int n)
     return dp[n];
 }
 
+bool is_palendrome(std::string input)
+{
+    return input == std::string(input.rbegin(), input.rend());
+}
+
 int main()
 {
+    std::memset(dp, -1, sizeof(int) * 100);
     while (true)
     {
         std::string input;
