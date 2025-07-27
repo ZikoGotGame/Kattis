@@ -1,5 +1,15 @@
 BasedOnStyle: LLVM
-IndentWidth: 4
-UseTab: Never
+BraceWrapping:
+  AfterClass: true
+  AfterControlStatement: true
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterStruct: true
+  AfterUnion: true
+  BeforeCatch: true
+  BeforeElse: true
+  IndentBraces: false
 BreakBeforeBraces: Allman
-ColumnLimit: 0
+IndentWidth: 4
+ColumnLimit: 150

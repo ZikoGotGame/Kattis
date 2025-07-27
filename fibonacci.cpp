@@ -12,10 +12,7 @@ int fib(int n)
     return dp[n];
 }
 
-bool is_palendrome(std::string input)
-{
-    return input == std::string(input.rbegin(), input.rend());
-}
+bool is_palendrome(std::string input) { return input == std::string(input.rbegin(), input.rend()); }
 
 int main()
 {
