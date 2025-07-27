@@ -1,5 +1,5 @@
-.vscode
-.clang-format
+vscode
+clang-format
 a.out
 fibonacci.cpp
 
