@@ -16,6 +16,8 @@ bool is_palendrome(std::string input) { return input == std::string(input.rbegin
 
 int main()
 {
+    std::ios::sync_with_stdio(false);
+    std::cin.tie(0);
     std::memset(dp, -1, sizeof(int) * 100);
     while (true)
     {
